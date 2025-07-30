@@ -10,6 +10,21 @@
   .nav-button {
     @apply text-offgray rounded-lg p-2 font-bold cursor-pointer hover:bg-highlighted transition-all duration-1000 ease-linear
   }
+  .sign-input {
+    @apply border-b-1 border-b-offgray focus:ring-0 focus:outline-0 2xl:text-xl lg:text-lg w-full mb-[6%] font-bold
+  }
+  .sign-title-true{
+    @apply text-white 2xl:text-4xl lg:text-3xl text-2xl font-mono cursor-pointer border-b-2 border-white
+  }
+  .sign-title-false{
+    @apply text-white 2xl:text-4xl lg:text-3xl text-2xl font-mono cursor-pointer
+  }
+  .sign-slide {
+    @apply flex flex-row w-[200%] h-full transition-transform duration-500
+  }
+  .sign-button {
+    @apply w-full rounded-lg bg-white text-black font-bold text-xl 2xl:text-2xl h-12 flex items-center justify-center cursor-pointer hover:text-white hover:bg-black/5 transition-all duration-250 ease-linear
+  }
 }
 
 
@@ -36,4 +51,17 @@ transform: translate(0%, 10%); /* Move o brilho para o canto superior esquerdo *
 background: radial-gradient(circle, rgb(30, 0, 0), rgba(255, 0, 0, 0) 100%);
 filter:blur(200px);
 z-index: -1;
+animation: moveGlow 5s ease-in-out infinite alternate
+}
+
+@keyframes moveGlow {
+  0% {
+    transform: translate(-20%, -10%);
+  }
+  50% {
+    transform: translate(0%, 0%);
+  }
+  100% {
+    transform: translate(20%, 10%);
+  }
 }

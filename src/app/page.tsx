@@ -4,7 +4,7 @@ import MainContent from './components/Maincontent'
 
 export default function Home() {
   return (
-    <div className='h-full w-full'>
+    <div className='min-h-screen max-h-screen w-screen flex flex-col'>
       <PgHeader/>
       <MainContent/>
       <PgFooter/>

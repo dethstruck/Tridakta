@@ -1,21 +1,21 @@
 "use client";
-import PgHeader from "../components/PgHeader"
-import SideBar from "../components/SideBar"
-import PgFooter from "../components/PgFooter"
-import {LuGhost, LuSettings } from 'react-icons/lu';
-import { AiOutlineBars } from "react-icons/ai";
-import {useState} from 'react'
+import Content from "../components/Dashboard"
+import SideBar from '../components/SideBar'
+import Header from '../components/DashboardHeader'
+import UserCard from '../components/UserCard'
 
 export default function Dashboard () {
-//hooks is on the top on react
-const [isSideBarOpen, setSideBarOpen]= useState(false); //declare the state of your function on the start
 
-
-    return (
-        <div className='min-h-screen max-h-screen w-screen flex flex-col'>
-            <PgHeader/>
-            <SideBar/>
-            <PgFooter/>
+        return (
+        <div className='main-page'>
+            <div className="flex flex-row w-full h-[10%] 2xl:h-[8%]">
+                <UserCard/>
+                <Header/>
+            </div>
+            <div className="flex flex-row w-full h-full">
+                <SideBar/>
+                <Content/>
+            </div>
         </div>
     )
 }

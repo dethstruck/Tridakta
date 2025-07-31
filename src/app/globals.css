@@ -3,10 +3,17 @@
 @theme {
   --color-primary: #ea0000;
   --color-offgray: #898b8f;
-  --color-highlighted: #44464c;
+  --color-highlighted: #3a3b3c  ;
+  --color-lowwhite: #cccccc;
+  --color-back1: #242526;
+  --color-back2: #1b1b1b;
+  --color-line: #3f3f3f;
 }
 
 @layer components {
+  .main-page {
+    @apply min-h-screen max-h-screen w-screen flex flex-col h-screen
+  }
   .nav-button {
     @apply text-offgray rounded-lg p-2 font-bold cursor-pointer hover:bg-highlighted transition-all duration-1000 ease-linear
   }
@@ -23,7 +30,16 @@
     @apply flex flex-row w-[200%] h-full transition-transform duration-500
   }
   .sign-button {
-    @apply w-full rounded-lg bg-white text-black font-bold text-xl 2xl:text-2xl h-12 flex items-center justify-center cursor-pointer hover:text-white hover:bg-black/5 transition-all duration-250 ease-linear
+    @apply w-full rounded-lg bg-white text-black font-bold text-xl 2xl:text-2xl h-auto py-[1%] flex items-center justify-center cursor-pointer hover:text-white hover:bg-black/5 transition-all duration-250 ease-linear
+  }
+  .bar-button {
+    @apply text-lowwhite my-[2%] p-[2%] bg-none hover:bg-highlighted flex flex-row gap-[5%] items-center font-bold 2xl:text-lg rounded-md cursor-pointer w-[90%] transition-all duration-200 ease-linear
+  }
+  .bar-tip {
+    @apply absolute -translate-y-[100%] w-auto p-2 min-w-max left-[140%] rounded-md shadow-md text-white bg-gray-900 text-xs font-mono transition-all duration-100 scale-0 origin-left group-hover:scale-100
+  }
+  .bar-hr {
+    @apply border-line border-t-1 w-full my-[1%]
   }
 }
 

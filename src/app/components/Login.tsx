@@ -30,7 +30,7 @@ const Login = () => {
     }
 
     return(
-        <div className='overflow-hidden lg:mx-[35%] flex 2xl:mt-[8%] xl:mt-[10%] mt-[20%] flex-col pb-[2%] border-1 border-offgray backdrop-blur-3xl pt-[4%] lg:pt-[2%] rounded-xl mb-auto shadow-md shadow-offgray/25'>
+        <div className='overflow-hidden mx-auto flex 2xl:mt-[8%] xl:mt-[5%] mt-[10%] flex-col pb-[2%] border-1 border-offgray backdrop-blur-3xl pt-[4%] lg:pt-[2%] rounded-xl mb-auto shadow-md shadow-offgray/25'>
             <div className="flex flex-row mb-[10%] gap-[15%] justify-center">
                 <h1 className={ToggleForm ? "sign-title-false" :"sign-title-true"} onClick={() => setToggleForm(false)}>Login</h1>
                 <h1 className={ToggleForm ? "sign-title-true" :"sign-title-false"} onClick={() => setToggleForm(true)}>Sign Up</h1>

@@ -1,6 +1,6 @@
 # Tridakta 🎛️🖥️
 
-**Tridakta** is a sleek web app to help you manage your 3D printer filament stock 📦, track expenses 💸, and get real-time insights through an intuitive dashboard 📊. Perfect for makers, hobbyists, and professionals who want to keep their 3D printing workflow smooth and organized! 🚀
+**Tridakta** is a web app to help you manage your 3D printer filament stock 📦, track expenses 💸, and get real-time insights through an intuitive dashboard 📊. Perfect for makers, hobbyists, and professionals who want to keep their 3D printing workflow smooth and organized! 🚀
 
 ---
 
@@ -23,11 +23,10 @@ Managing filament and costs can get messy. Tridakta brings everything together i
 
 *(Adjust based on your project)*
 
-- Frontend: React ⚛️ / Vue.js 🖼️ / Angular 🅰️  
-- Backend: Node.js 🟢 / Django 🐍 / Flask 🍶  
-- Database: MongoDB 🍃 / PostgreSQL 🐘 / MySQL 🐬  
-- Styling: Tailwind CSS 💨  
-- Charts: Chart.js 📈  
+- Frontend: React / Next.js ⚛️
+- Backend: N/A
+- Database: Firebase 🍃
+- Styling: Tailwind CSS 💨    
 
 ---
 

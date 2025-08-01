@@ -1,6 +1,10 @@
-"use client";
 import PgHeader from "../components/PgHeader"
 import PgFooter from "../components/PgFooter"
+
+export const metadata = {
+  title: 'Tridakta | About Us',
+  description: 'Tridakta Labs'
+}
 
 export default function About() {
     return (

@@ -26,10 +26,10 @@ const SideBar = () => {
         <div className="flex flex-col h-full w-[12%] sm:w-[35%] md:w-[25%] lg:w-[17%] xl:w-[12%] pb-[1%] pt-1 items-center bg-back1 border-t-1 border-line">
             <BarButton icon={<FaHome size={iconSize}/>} text="Dashboard"/>
             <BarButton icon={<MdEmail size={iconSize}/>} text="Email"/>
-            <BarButton icon={<AiOutlineBars size={iconSize}/>} text="Menu"/>
-            <BarButton icon={<AiOutlineAreaChart size={iconSize}/>} text="Dashboard"/>
+            <BarButton icon={<AiOutlineAreaChart size={iconSize}/>} text="Inventory"/>
             <BarButton icon={<TbLayoutDashboardFilled size={iconSize}/>} text="Layout"/>
             <BarButton icon={<BsFillBadge3dFill size={iconSize}/>} text="3D"/>
+            <BarButton icon={<AiOutlineBars size={iconSize}/>} text="Menu"/>
             <hr className='bar-hr mt-auto'/>
             <BarButton task={handleLogout} icon={<IoLogOut size={iconSize}/>} text="Logout"/>
             <BarButton icon={<LuSettings size={iconSize}/>} text="Settings"/>

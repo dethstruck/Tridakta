@@ -23,7 +23,7 @@ const SideBar = () => {
     }
     
     return (
-        <div className="flex flex-col h-full w-[12%] sm:w-[35%] md:w-[25%] lg:w-[17%] xl:w-[12%] pb-[1%] pt-1 items-center bg-back1 border-t-1 border-line">
+        <div className="flex flex-col h-full w-[12%] sm:w-[35%] md:w-[25%] lg:w-[17%] xl:w-[12%] pb-[1%] pt-1 items-center bg-back1">
             <BarButton icon={<FaHome size={iconSize}/>} text="Dashboard"/>
             <BarButton icon={<MdEmail size={iconSize}/>} text="Email"/>
             <BarButton icon={<AiOutlineAreaChart size={iconSize}/>} text="Inventory"/>

@@ -10,7 +10,7 @@ type PgHeaderProps = {
 
 const PgHeader = ({title = 'Dashboard'}: PgHeaderProps) => {
     return (
-        <header className="flex flex-row h-full items-center w-full justify-center bg-back2">
+        <header className="flex flex-row h-full items-center w-full justify-center bg-back2 border-b-1 border-line">
             <h1 className='font-bold text-3xl text-white mx-[1%] cursor-default w-[15%] text-center'>{title}</h1>
             <div className='w-[1px] h-[70%] bg-line'></div>
             <Link className='flex flex-row items-center ml-[1%] lg:mr-auto' href="/">

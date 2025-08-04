@@ -41,6 +41,9 @@
   .bar-hr {
     @apply border-line border-t-1 w-full my-[1%]
   }
+  .dash-opt {
+    @apply bg-highlighted font-bold
+  }
 }
 
 

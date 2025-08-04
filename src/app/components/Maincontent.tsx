@@ -4,7 +4,7 @@ import logo from '../assets/logotridakta.png';
 import Link from 'next/link';
 
 const Maincontent = () => (
-  <div className="px-4 mt-24 lg:mt-10 2xl:mt-16 flex flex-col items-center text-center max-w-screen-xl mx-auto flex-grow">
+  <div className="px-4 mt-24 lg:mt-4 2xl:mt-16 flex flex-col items-center text-center max-w-screen-xl mx-auto flex-grow">
     <Image src={logo} alt="Logo" className="w-2/3 sm:w-1/3 lg:w-1/4 h-auto drop-shadow-md hover:scale-105 transition-transform duration-200 ease-in-out animate-pulse"/>
     <h1 className="text-balance text-3xl sm:text-4xl lg:text-5xl 2xl:text-6xl font-bold text-[#cccccf] mt-6">
       The future of 3D printing stock & expense control

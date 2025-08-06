@@ -47,6 +47,17 @@
 
 ---
 
+## Project Demo 💻
+
+You can check out the live demo of the **Tridakta** project here:
+
+[🚀 Tridakta Live Demo](https://tridakta-fa2usjko6-hirokazes-projects.vercel.app)
+
+Feel free to explore the app and see how it helps manage 3D printer filaments efficiently!
+
+
+---
+
 ## Contribution 🤝
 
 Contributions, issues, and feature requests are welcome! Feel free to dive in and help make Tridakta even better. 💪✨

@@ -22,7 +22,11 @@
     </td>
   </tr>
 </table>
-
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-0EA5E9?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ---
 
 ## Features ✨
@@ -33,8 +37,6 @@
 - 🧑‍💻 **User-friendly Interface:** Designed for effortless navigation and productivity.
 
 ## Tech Stack 🛠️
-
-*(Adjust based on your project)*
 
 - Frontend: Next.js application using Typescript ⚛️
 - Backend: Firebase (BaaS) 🍃

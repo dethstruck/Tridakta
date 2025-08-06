@@ -1,4 +1,5 @@
 "use client";
+
 import {useState, useRef, use} from 'react';
 import { useRouter } from 'next/navigation';
 import React from 'react';
@@ -9,7 +10,8 @@ import { MdEmail } from "react-icons/md";
 import { TbLayoutDashboardFilled } from "react-icons/tb";
 import { BsFillBadge3dFill } from "react-icons/bs";
 import { IoLogOut } from "react-icons/io5";
-import { SlSizeFullscreen } from 'react-icons/sl'
+import { SlSizeFullscreen } from 'react-icons/sl';
+import { getAuth, signOut } from 'firebase/auth';
 
 //hooks is on the top on react
 //invert the actual state in 14 line
@@ -18,8 +20,12 @@ const SideBar = () => {
     const iconSize = 35
     const router = useRouter();
     
-    const handleLogout = () => {
-        router.push('/')
+    const handleLogout = async () => {
+    const auth = getAuth();
+
+    await signOut(auth)
+    console.log('Logged out')
+    router.push('/')
     }
     
     return (

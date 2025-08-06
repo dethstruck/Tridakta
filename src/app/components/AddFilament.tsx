@@ -6,7 +6,7 @@ const AddFilament = () => {
     const [value, setValue] = useState(1000);
 
     return (
-        <div className="bg-back2 w-full h-[90vh] overflow-auto flex flex-col py-[1%] px-[4%]">
+        <div className="bg-back2 w-full h-[100vh] overflow-auto flex flex-col py-[1%] px-[4%]">
             <h2 className="mx-auto font-bold text-4xl text-center mb-[3%]">Add Filament</h2>
             <form className="flex flex-col gap-[2%] shadow-lg mx-auto w-[80%] h-[60vh] bg-back1 rounded-2xl py-[1%] px-[10%]">
                 <h3 className="font-bold text-2xl mb-[1%] w-full text-center">Please, fill out this form:</h3>

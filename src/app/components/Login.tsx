@@ -24,8 +24,12 @@ const Login = () => {
             await signUp(email, password, name);
             alert("Conta criada com sucesso!");
             }
-        } catch (error: any) {
-            alert(error.message);
+        } catch (error: unknown) {
+        if (error instanceof Error) {
+            console.error(error.message);
+        } else {
+            console.error('Unexpected error', error);
+        }
         }
     }
 

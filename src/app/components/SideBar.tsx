@@ -63,7 +63,7 @@ const handleFullScreen = () => {
 type BarButtonProps = {
     icon: React.ReactNode;
     text: string;
-    task?: (...args: any[]) => void;
+    task?: () => void;
 }
 
 const BarButton = ({icon, text = 'Button Tip', task}: BarButtonProps) => {

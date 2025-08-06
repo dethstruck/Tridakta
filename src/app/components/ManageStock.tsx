@@ -34,6 +34,7 @@ const ManageStock = () => {
         const unsubscribe = onValue(userStockRef, (snapshot) => {
             const data = snapshot.val();
 
+
             if (data) {
                 const entries: StockEntry[] = Object.entries(data).map(([key, value]) => ({
                     key: key,
@@ -49,9 +50,11 @@ const ManageStock = () => {
         return () => unsubscribe();
     }, []);
 
+
     if (isLoading) {
         return <div className="bg-back2 w-full h-[90vh] flex justify-center items-center"><p>Loading stock entries...</p></div>;
     }
+
 
     return(
         <div className="bg-back2 w-full h-[90vh] overflow-auto flex flex-col py-[1%] px-[4%]">

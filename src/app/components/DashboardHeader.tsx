@@ -19,7 +19,7 @@ const PgHeader = ({title = 'Dashboard'}: PgHeaderProps) => {
             </Link>
             <nav className='gap-4 items-center lg:flex hidden mx-[1%]'>
                 <Link href='/' className='nav-button'>Components</Link>
-                <Link href='/' className='nav-button'>Templates</Link>
+                <Link href='/' className='nav-button'>Contact</Link>
                 <Link href='/about' className='nav-button'>About Us</Link>
                 <span className='w-[1px] border-offgray h-6 border-[1px] opacity-40'/>
                 <div className='flex flex-row gap-5'>

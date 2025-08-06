@@ -1,9 +1,10 @@
 import ProtectedRoute from "../components/ProtectedRoute";
-import Content from "../components/Dashboard"
-import SideBar from '../components/SideBar'
-import Header from '../components/DashboardHeader'
-import UserCard from '../components/UserCard'
-import AddFilament from "../components/AddFilament"
+import Content from "../components/Dashboard";
+import SideBar from '../components/SideBar';
+import Header from '../components/DashboardHeader';
+import UserCard from '../components/UserCard';
+import AddFilament from "../components/AddFilament";
+import ManageStock from "../components/ManageStock";
 
 export const metadata = {
   title: 'Tridakta | Dashboard',
@@ -21,9 +22,10 @@ export default function Dashboard () {
             </div>
             <div className="flex flex-row w-full h-full overflow-hidden">
                 <SideBar/>
-                <div id="dash" className="flex flex-col w-full h-[200vh] transition-all duration-600 ease">
+                <div id="dash" className="flex flex-col w-full h-[300vh] transition-all duration-600 ease bg-back2">
                     <Content/>
                     <AddFilament/>
+                    <ManageStock/>
                 </div>
             </div>
         </div>

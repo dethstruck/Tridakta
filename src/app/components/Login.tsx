@@ -37,8 +37,8 @@ const Login = () => {
             </div>
             <div className={ToggleForm ? "sign-slide -translate-x-[50%]" : "sign-slide"}>
                 <form className="flex flex-col items-center h-full w-[50%] px-[6%]" onSubmit={(e) =>handleSubmit(e, true)}>
-                    <input onChange={(e) => setEmail(e.target.value)} type="email" className="sign-input" placeholder="Enter your Email" required/>
-                    <input onChange={(e) => setPassword(e.target.value)} type="password" className="sign-input" placeholder="Enter your Password" required/>
+                    <input id="email-signin" onChange={(e) => setEmail(e.target.value)} type="email" className="sign-input" placeholder="Enter your Email" required/>
+                    <input id="password-signin" onChange={(e) => setPassword(e.target.value)} type="password" className="sign-input" placeholder="Enter your Password" required/>
                     <div className="flex flex-col lg:flex-row w-full justify-between mb-[5%]">
                         <div className="flex flex-row items-center gap-2">
                             <input  id="keep-logged"name="keep-logged" type="checkbox" className="appearance-none w-4 h-4 rounded-lg bg-offgray border-4 border-offgray checked:bg-white transition-all ease-linear"/>
@@ -54,9 +54,9 @@ const Login = () => {
                     </span>
                 </form>
                 <form className="flex flex-col items-center h-full w-[50%] px-[6%]" onSubmit={(e) =>handleSubmit(e, false)}>
-                    <input onChange={(e) => setName(e.target.value)} type="text" className="sign-input" placeholder="Enter your Name"/>
-                    <input onChange={(e) => setEmail(e.target.value)} type="email" className="sign-input" placeholder="Enter your Favorite email" required/>
-                    <input onChange={(e) => setPassword(e.target.value)} type="password" className="sign-input" placeholder="Create your Password" required/>
+                    <input id="name-signup" onChange={(e) => setName(e.target.value)} type="text" className="sign-input" placeholder="Enter your Name"/>
+                    <input id="email-signup" onChange={(e) => setEmail(e.target.value)} type="email" className="sign-input" placeholder="Enter your Favorite email" required/>
+                    <input id="password-signup" onChange={(e) => setPassword(e.target.value)} type="password" className="sign-input" placeholder="Create your Password" required/>
                     <button type="submit" className="sign-button">Sign Up</button>
                     <span className="mt-[6%] gap-1 flex">Already have an account?
                         <span className="cursor-pointer font-bold" onClick={() => setToggleForm(false)}>

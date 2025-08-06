@@ -51,7 +51,7 @@ const Login = () => {
                         <Link href="/">Forgot your Password?</Link>
                     </div>
                     <button type="submit" className="sign-button">Log In</button>
-                    <span className="mt-[6%] gap-1 flex">Don't have an account?
+                    <span className="mt-[6%] gap-1 flex">Already have an account?
                         <span className="cursor-pointer font-bold" onClick={() => setToggleForm(true)}>
                             <u>Sign Up</u>
                         </span>

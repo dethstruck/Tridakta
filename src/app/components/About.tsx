@@ -1,12 +1,11 @@
 import React from 'react';
 import {FaGithub,FaGithubAlt, FaLinkedin} from 'react-icons/fa'
-// <img src={} alt={`Foto de ${name}`} className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-gray-700"/>
-//
+
 const About = () => {
     return(
         <div className='h-full w-full text-gray-300 font-mono flex py-[1%] mb-auto'>
             <section className='w-full flex flex-col items-center'>
-                <h1 className='text-4xl md:text-5xl font-bold text-zinc-950 mb-0 [text-shadow:0_0_8px_#8B0000]'>//About us</h1>
+                <h1 className='text-4xl md:text-5xl font-bold text-zinc-950 mb-0 [text-shadow:0_0_8px_#8B0000]'>{'//About us'}</h1>
                 <div className='mt-6'></div> 
                 <p className='text-4lg leading-relaxed border-l-4 border-purple-500 pl-4'>A Tridakta é um projeto criado para revolucionar a forma como você lida com filamentos de impressoras 3D.
                 <br/> Faça um teste,escolha um filamento e veja a mágica acontecer!
@@ -17,7 +16,7 @@ const About = () => {
                 Nosso propósito é entregar uma ferramenta leve, inteligente e funcional — feita com carinho e código, para makers, criadores e entusiastas da tecnologia.
                 </p>
                 <div className='mt-8'></div> 
-                <h2 className='text-3xl text-justify sm:text-4xl font-bold text-red-600 mb-12 [text-shadow:0_0_8px_#2F4F4F]'>//Developers</h2>
+                <h2 className='text-3xl text-justify sm:text-4xl font-bold text-red-600 mb-12 [text-shadow:0_0_8px_#2F4F4F]'>{'//Developers'}</h2>
             <div className="flex flex-row items-center gap-10">
               <div className="bg-gray-900/50 border border-rose-950/50 rounded-lg p-6 text-center group transition-all duration-300 ease-in-out hover:border-cyan-400 hover:shadow-[0_0_25px_rgba(6,182,212,0.5)] hover:-translate-y-2">
                 <div className="mb-4">
